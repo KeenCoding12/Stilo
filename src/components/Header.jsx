@@ -30,24 +30,24 @@ export const Header = () => {
 
   return (
     <header ref={headerRef} className='header'>
-        <div className="container flex justify-between items-center py-6">
-            <a href="#" className="text-3xl font-bold font-Rubik">Stilo</a>
+        <div className="container flex items-center justify-between py-6">
+            <a href="#" className="font-Rubik text-3xl font-bold">Stilo</a>
 
             {/* Mobile Menu */}
             <nav className={`navbar ${isOpen ? "active" : ""}`}>
-              <button className="block ml-auto" onClick={handleClick}>
+              <button className="ml-auto block" onClick={handleClick}>
                 <X size={30} />
               </button>
-              <ul className='grid gap-8 mt-10'>
+              <ul className='mt-10 grid gap-8'>
                 {navItems.map(({id,label,path})=>(
-                  <li key={id}>
+                  <li key={id} onClick={handleClick}>
                     <Link label={label} path={path} />
                   </li>
                 ))}
               </ul>
             </nav>
 
-            <ul className='md:flex md:gap-[52px] hidden'>
+            <ul className='hidden md:flex md:gap-[52px]'>
               {navItems.map(({id,label,path})=>(
                 <li key={id}>
                   <Link label={label} path={path} />
@@ -55,13 +55,13 @@ export const Header = () => {
               ))}
             </ul>
             <div className="flex items-center gap-[14px]">
-              <button className="transition-colors hover:text-secondaryClr duration-300 ">
+              <button className="transition-colors duration-300 hover:text-secondaryClr">
                 <ShoppingCart size={30} />
               </button>
-              <button className="transition-colors hover:text-secondaryClr duration-300 ">
+              <button className="transition-colors duration-300 hover:text-secondaryClr">
                 <User size={30} />
               </button>
-              <button className="transition-colors hover:text-secondaryClr duration-300 md:hidden" onClick={handleClick}>
+              <button className="transition-colors duration-300 hover:text-secondaryClr md:hidden" onClick={handleClick}>
                 <Menu size={30} />
               </button>
             </div>
