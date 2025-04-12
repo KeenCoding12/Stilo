@@ -1,15 +1,20 @@
 import React from 'react'
 
-const BlogCard = ({id,imgUrl,title,text,post}) => {
+const BlogCard = ({ id,imgUrl,title,text,post }) => {
   return (
-    <div className='' key={id}>
-      <div className="rounded-lg overflow-hidden">
-        <img src={imgUrl} alt={title} className='w-full' />
+    <div>
+      {/* card image */}
+      <div className="overflow-hidden rounded-lg">
+        <img 
+          src={imgUrl} 
+          alt={title} 
+          className='w-full'
+        />
       </div>
-
+      {/* card content */}
       <div className="">
-        <a href='#' className='mt-2 text-xl inline-block font-semibold hover:text-primaryClr transition-colors duration-200'>{title}</a>
-        <p className='mt-1 mb-3'>{text}</p>
+        <a href="#" className="mt-4 inline-block text-xl font-semibold duration-200 hover:text-primaryClr">{title}</a>
+        <p className="mb-3 mt-1">{text}</p>
         <p>{post}</p>
       </div>
     </div>

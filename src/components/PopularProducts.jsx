@@ -1,28 +1,25 @@
-import React from 'react';
-import { popularProducts } from '../constant/data';
-import PopularProductCard from './PopularProductCard';
-
+import React from 'react'
+import { popularProducts } from '../constant/data'
+import PopularProductsCard from './PopularProductsCard'
+import Button from './Button'
 const PopularProducts = () => {
   return (
-    <section className="section" aria-labelledby="popular-products-heading" id='products'>
+    <section className='section' id='products'>
       <div className="container">
+        {/* title */}
         <header className="text-center">
-          <h2 id="popular-products-heading" className="md:text-center">
-            Popular Products
-          </h2>
-          <p className="md:text-center md:max-w-[500px] mx-auto mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique distinctio et quasi!
-          </p>
+          <h2>Popular products</h2>
+          <p className="mx-auto mt-3 max-w-[550px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio libero fugiat cumque.</p>
         </header>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 md:mt-20">
-          {popularProducts.map((product) => (
+        {/* products */}
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 md:mt-20 lg:grid-cols-3">
+          {popularProducts.map((product)=>(
             <div 
-              className="bg-gray-200/50 hover:bg-gray-200/70 transition-colors duration-200"
+              className="h bg-gray-200/50" 
               key={product.id}
             >
-              <PopularProductCard 
-                id={product.id}
+              <PopularProductsCard
+                id={product.id}              
                 img={product.imgUrl}
                 name={product.name}
                 price={product.price}
@@ -31,9 +28,10 @@ const PopularProducts = () => {
             </div>
           ))}
         </div>
+        <Button label='All products' className='primary-btn m-20 mx-auto block' />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default PopularProducts;
+export default PopularProducts

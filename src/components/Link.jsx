@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Link = ({label,path}) => {
+const Link = ({ label,path }) => {
   return (
-    <a href={path} className='font-medium relative inline-block after:block after:absolute after:left-0 after:h-0.5 after:bg-secondaryClr after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right after:hover:origin-left hover:text-secondaryClr transition-colors'>{label}</a>
+    <a href={path} className='relative inline-block font-medium transition-colors after:absolute after:left-0 after:block after:h-0.5 after:w-full after:origin-right after:scale-x-0 after:bg-secondaryClr after:transition after:duration-300 hover:text-secondaryClr after:hover:origin-left after:hover:scale-x-100'>{label}</a>
   )
 }
 

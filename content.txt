@@ -1,80 +1,42 @@
 
 Stilo
 
-Product
+Home
 Services
+Products
+Testimonials
 Blog
-About Us
 
 Redesign Your Space, Refine Your Look.
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero numquam nisi, illum laboriosam ea!
 
-Search your property...
-Search
+Shop Now
+Explore
 
-Our Product
-Designed with excellence in 
-every detail.
+alt = Modern interior design showcase
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Why Choose Us
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus tenetur alias vero excepturi voluptatem!
 
--35%
-
+alt = why choose us illustration
 
 
-Testimonial Section
 
-What Our Customer Say
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Popular products
 
-Wooden Chair
-Shop now
-Bookcase
-Shop now
-Single Sofa
-Shop now
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio libero fugiat cumque.
 
-Our Collection
-Our Furniture Gallery
+Remove from favorites
+Add to favorites
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+All Products
 
-Review
-Our Furniture Review
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Testinonials
 
-Join us and unlock exclusive deals!
+Recent Blog
+View All Posts
 
-Your Email
-Subscribe
+Subscribe to NewsLetter
 
-Stilo
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-
-Customer Service
-Track My Order
-Store Locator
-Trade Program
-Gift Cards
-
-
-Popular Product
-Home Office Desks
-Trending Coffee Tables
-Luxury Bed Frames
-Top Dining Sets
-
-Help & Policies
-Shipping & Delivery
-Returns & Exchanges
-FAQ / Help Center
-Size Guides
-
-Legal 
-Privacy Policy
-Terms of Service
-Accessibility
-
-
-© 2023 by Logo Furniture. All rights reserved.
+Your Name
+E-mail

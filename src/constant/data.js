@@ -55,21 +55,21 @@ export const popularProducts = [
     {
       id: 1,
       imgUrl: '/images/product-1.png',
-      name: 'Modern Lounge Chair',
+      name: 'Modern Lounge sofa',
       price: 234,
       rating: 4.5
     },
     {
       id: 2,
       imgUrl: '/images/product-2.png',
-      name: 'Minimalist Coffee Table',
+      name: 'Table Couch Chair',
       price: 189,
       rating: 4.2
     },
     {
       id: 3,
       imgUrl: '/images/product-3.png',
-      name: 'Scandinavian Sofa',
+      name: 'cafe table',
       price: 499,
       rating: 4.8
     },
@@ -83,14 +83,14 @@ export const popularProducts = [
     {
       id: 5,
       imgUrl: '/images/product-5.png',
-      name: 'Classic Tufted Armchair',
+      name: 'Nordic sofa',
       price: 89,
       rating: 4.1
     },
     {
       id: 6,
       imgUrl: '/images/product-6.png',
-      name: 'Velvet Armchair',
+      name: 'Table Lamp',
       price: 299,
       rating: 4.6
     },
@@ -159,19 +159,19 @@ export const footerItems = [
         title:'Customer Service',
         links:[
             {
-                link:'Track My Order',
+                label:'Track My Order',
                 href:'#'
             },
             {
-                link:'Store Locator',
+                label:'Store Locator',
                 href:'#'
             },
             {
-                link:'Trade Program',
+                label:'Trade Program',
                 href:'#'
             },
             {
-                link:'Gift Cards',
+                label:'Gift Cards',
                 href:'#'
             },
         ],
@@ -182,19 +182,19 @@ export const footerItems = [
         title:'Popular Product',
         links:[
             {
-                link:'Home Office Desks',
+                label:'Home Office Desks',
                 href:'#'
             },
             {
-                link:'Trending Coffee Tables',
+                label:'Trending Coffee Tables',
                 href:'#'
             },
             {
-                link:'Luxury Bed Frames',
+                label:'Luxury Bed Frames',
                 href:'#'
             },
             {
-                link:'Top Dining Sets',
+                label:'Top Dining Sets',
                 href:'#'
             },
         ],
@@ -204,19 +204,19 @@ export const footerItems = [
         title:'Help & Policies',
         links:[
             {
-                link:'Shipping & Delivery',
+                label:'Shipping & Delivery',
                 href:'#'
             },
             {
-                link:'Returns & Exchanges',
+                label:'Returns & Exchanges',
                 href:'#'
             },
             {
-                link:'FAQ / Help Center',
+                label:'FAQ / Help Center',
                 href:'#'
             },
             {
-                link:'Size Guides',
+                label:'Size Guides',
                 href:'#'
             },
         ],
@@ -226,15 +226,15 @@ export const footerItems = [
         title:'Legal',
         links:[
             {
-                link:'Privacy Policy',
+                label:'Privacy Policy',
                 href:'#'
             },
             {
-                link:'Terms of Service',
+                label:'Terms of Service',
                 href:'#'
             },
             {
-                link:'Accessibility',
+                label:'Accessibility',
                 href:'#'
             },
         ]
